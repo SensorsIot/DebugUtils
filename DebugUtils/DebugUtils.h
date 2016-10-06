@@ -1,5 +1,11 @@
 // Debug utilities
 
+// 0: Print nothing
+// 3: Print all
+
+// DEBUGPRINT0: Very important
+// DEBUGPRINT3: Not important
+
 #if DEBUG >= 0
 #define DEBUGPRINT0(x) Serial.print(x)
 #define DEBUGPRINTLN0(x) Serial.println(x)
